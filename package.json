@@ -1,0 +1,30 @@
+{
+  "name": "bengbengda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack-dev-server --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devyumao/bengbengda.git"
+  },
+  "author": "yumao <yuzhang.lille@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devyumao/bengbengda/issues"
+  },
+  "homepage": "https://github.com/devyumao/bengbengda#readme",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "path": "^0.12.7",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
